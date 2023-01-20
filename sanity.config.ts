@@ -5,14 +5,15 @@ import { schemaTypes } from "./schemas";
 import { myTheme } from "./theme";
 import StudioNavbar from "./components/StudioNavbar";
 import { getDefaultDocumentNode } from "./structure";
+import Logo from "./components/Logo";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 
 export default defineConfig({
   basePath: "/studio",
-  name: "FATIH_Content_Studio",
-  title: "FATIH Content Studio",
+  name: "GEZI_BLOG",
+  title: "Gezi Blog",
   projectId,
   dataset,
   plugins: [
@@ -26,7 +27,7 @@ export default defineConfig({
   },
   studio: {
     components: {
-      //logo:Logo,
+      logo:Logo,
       navbar: StudioNavbar,
     },
   },
