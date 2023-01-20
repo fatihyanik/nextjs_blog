@@ -41,7 +41,7 @@ export const RichTextComponents = {
   },
   blockquote: {
     h1: ({ children }: any) => (
-      <blockquote className='border-l-[#F7AB0A] border-l-4 pl-5 py-5 my-5'>
+      <blockquote className='border-l-[#0af70a] border-l-4 pl-5 py-5 my-5'>
         {children}
       </blockquote>
     ),
@@ -56,7 +56,7 @@ export const RichTextComponents = {
         <Link
           href={value.href}
           rel={rel}
-          className='underline decoration-[#F7AB0A] hover:decoration-black'
+          className='underline decoration-[#0af70a] hover:decoration-black'
         >
           {children}
         </Link>

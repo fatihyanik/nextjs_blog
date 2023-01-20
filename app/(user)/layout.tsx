@@ -8,7 +8,7 @@ function RootLayout({children,} : {children: React.ReactNode}) {
     <html>
 
         <body className='max-w-7xl mx-auto'>
-          {/* <Header /> */}
+          <Header /> 
           <Banner />
           {children}
           </body>
